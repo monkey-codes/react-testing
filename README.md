@@ -1,25 +1,13 @@
-# ReduxSimpleStarter
+## React & Redux tutorial - Testing
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Example of unit testing react components, actions and reducers. Mocha as
+the test runner. Assertions and expectations provided by Chai and
+Chai-Jquery. No browser required, components are rendered in memory
+using jsdom.
 
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
+$ npm install
+$ npm run test:watch
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+Test suite will automatically re-run when source or test changes.
